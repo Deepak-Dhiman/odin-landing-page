@@ -1,180 +1,190 @@
 body {
-    font-family: "Roboto", sans-serif;
-  }
-  
-  /* Common */
-  
-  body,
-  .info h2,
-  p,
-  h4 {
-    margin: 0;
-  }
-  
-  body,
-  h4 {
-    padding: 0;
-  }
-  
-  .header,
-  .hero {
-    background-color: #1f2937;
-  }
-  
-  .info button,
-  .cta,
-  .cta button {
-    background-color: #3882f6;
-  }
-  
-  .header,
-  h2 {
-    color: #f9faf8;
-  }
-  
-  ul,
-  .hero p,
-  .cta p {
-    color: #e5e7eb;
-  }
-  
-  .hero,
-  .info button,
-  .cta,
-  .cta button {
-    color: white;
-  }
-  
-  h3,
-  .the-quote {
-    color: #1f2937;
-    font-size: 36px;
-  }
-  
-  .header,
-  h4 {
-    font-size: 24px;
-  }
-  
-  ul,
-  .hero p {
-    font-size: 18px;
-  }
-  
-  h2,
-  h3 {
-    font-weight: 800;
-  }
-  
-  .info button,
-  .quoter,
-  .cta button {
-    font-weight: bold;
-  }
-  
-  /* Header section */
-  
-  .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 200px;
-  }
-  
-  ul {
-    display: flex;
-    gap: 20px;
-    list-style: none;
-  }
-  
-  /* Hero section */
-  
-  .hero {
-    display: flex;
-    gap: 20px;
-    justify-content: space-between;
-    padding: 100px 200px;
-  }
-  
-  .info {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 8px;
-  }
-  
-  h2 {
-    font-size: 48px;
-  }
-  
-  .info button {
-    align-self: flex-start;
-    padding: 8px 32px;
-    border-radius: 8px;
-  }
-  
-  .hero img {
-    max-width: 500px;
-  }
-  
-  /* Services section */
-  
-  .services {
-    text-align: center;
-    padding-bottom: 100px;
-  }
-  
-  .cards,
-  .card {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-  }
-  
-  .card {
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .card img,
-  .card p {
-    max-width: 120px;
-  }
-  .card img {
-    border: 3px #3882f6 solid;
-    border-radius: 8px;
-    padding: 10px;
-  }
-  
-  /* Quote section */
-  
-  .quote {
-    background-color: #e5e7eb;
-    padding: 100px 300px;
-  }
-  
-  .the-quote {
-    font-style: italic;
-  }
-  
-  .quoter {
-    text-align: right;
-    padding-right: 50px;
-  }
-  
-  /* CTA section */
-  
-  .cta {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-radius: 8px;
-    margin: 80px 160px;
-    padding: 50px 100px;
-  }
-  
-  .cta button {
-    border: 2px solid white;
-    padding: 10px 40px;
-    border-radius: 8px;
-  }
+  font-family: "Roboto", sans-serif;
+}
+
+/* Common */
+
+body,
+.info h2,
+p,
+h4 {
+  margin: 0;
+}
+
+body,
+h4 {
+  padding: 0;
+}
+
+.header,
+.hero,
+.footer {
+  background-color: #1f2937;
+}
+
+.info button,
+.cta,
+.cta button {
+  background-color: #3882f6;
+}
+
+.header,
+h2 {
+  color: #f9faf8;
+}
+
+ul,
+.hero p,
+.cta p,
+.footer {
+  color: #e5e7eb;
+}
+
+.hero,
+.info button,
+.cta,
+.cta button {
+  color: white;
+}
+
+h3,
+.the-quote {
+  color: #1f2937;
+  font-size: 36px;
+}
+
+.header,
+h4 {
+  font-size: 24px;
+}
+
+ul,
+.hero p {
+  font-size: 18px;
+}
+
+h2,
+h3 {
+  font-weight: 800;
+}
+
+.info button,
+.quoter,
+.cta button {
+  font-weight: bold;
+}
+
+/* Header section */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 200px;
+}
+
+ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+/* Hero section */
+
+.hero {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  padding: 100px 200px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+.info button {
+  align-self: flex-start;
+  padding: 8px 32px;
+  border-radius: 8px;
+}
+
+.hero img {
+  max-width: 500px;
+}
+
+/* Services section */
+
+.services {
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+.cards,
+.card {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  flex-direction: column;
+  align-items: center;
+}
+
+.card img,
+.card p {
+  max-width: 120px;
+}
+.card img {
+  border: 3px #3882f6 solid;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+/* Quote section */
+
+.quote {
+  background-color: #e5e7eb;
+  padding: 100px 300px;
+}
+
+.the-quote {
+  font-style: italic;
+}
+
+.quoter {
+  text-align: right;
+  padding-right: 50px;
+}
+
+/* CTA section */
+
+.cta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 8px;
+  margin: 80px 160px;
+  padding: 50px 100px;
+}
+
+.cta button {
+  border: 2px solid white;
+  padding: 10px 40px;
+  border-radius: 8px;
+}
+
+/* Footer section */
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
