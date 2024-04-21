@@ -4,21 +4,55 @@ body {
 
 /* Common */
 
-body {
+body,
+.info h2,
+p {
   margin: 0;
+}
+
+body {
   padding: 0;
 }
 
-.header {
+.header,
+.hero {
   background-color: #1f2937;
-  color: #f9faf8;
+}
 
+.info button {
+  background-color: #3882f6;
+}
+
+.header,
+h2 {
+  color: #f9faf8;
+}
+
+ul,
+.hero p {
+  color: #e5e7eb;
+}
+
+.hero,
+.info button {
+  color: white;
+}
+
+.header {
   font-size: 24px;
 }
 
-ul {
-  color: #e5e7eb;
+ul,
+.hero p {
   font-size: 18px;
+}
+
+h2 {
+  font-weight: 800;
+}
+
+.info button {
+  font-weight: bold;
 }
 
 /* Header section */
@@ -34,4 +68,34 @@ ul {
   display: flex;
   gap: 20px;
   list-style: none;
+}
+
+/* Hero section */
+
+.hero {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  padding: 100px 200px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+.info button {
+  align-self: flex-start;
+  padding: 8px 32px;
+  border-radius: 8px;
+}
+
+.hero img {
+  max-width: 500px;
 }
